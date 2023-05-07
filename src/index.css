@@ -1,0 +1,66 @@
+@font-face {
+  font-family: HankenGrotesk;
+  src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+  /* font-style: normal;
+  font-weight: 400; */
+}
+
+:root {
+  font-family: HankenGrotesk;
+
+  /* primary colours */
+  --clr-lightRed: hsl(0, 100%, 67%);
+  --clr-orangeyYellow: hsl(39, 100%, 56%);
+  --clr-greenTeal: hsl(166, 100%, 37%);
+  --clr-cobaltBlue: hsl(234, 85%, 45%);
+  --clr-gradientLightSlateBlue: hsl(252, 100%, 67%);
+  --clr-gradientLightRoyalBlue: hsl(241, 81%, 54%);
+  --clr-violetBlue: hsl(256, 72%, 46%);
+  --clr-persianBlue: hsla(241, 72%, 46%);
+  /* neutral */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-paleBlue: hsl(221, 100%, 96%);
+  --clr-lightLavender: hsl(241, 100%, 89%);
+  
+  --clr-lightLavender2: hsla(241, 100%, 89%, 0);
+
+  --clr-darkGreyBlue: hsl(224, 30%, 27%);
+
+  /* app colours */
+  --clr-bg-primary: var(--clr-paleBlue);
+  --clr-bg-summaryTable: var(--clr-white);
+  --clr-bg-scoreGradient1: var(--clr-gradientLightSlateBlue);
+  --clr-bg-scoreGradient2: var(--clr-gradientLightRoyalBlue);
+  --clr-bg-scoreCircleGradient1: hsla(256, 72%, 46%, .9);
+  --clr-bg-scoreCircleGradient2: hsla(256, 72%, 46%, 0);
+
+  --clr-font-primary: var(--clr-white);
+  --clr-font-secondary: var(--clr-lightLavender);
+  --clr-font-tertiary: hsla(224, 30%, 27%, 0.5);
+
+  --clr-bg-item0: hsla(0, 100%, 67%, 0.1);
+  --clr-bg-item1: hsla(39, 100%, 56%, 0.1);
+  --clr-bg-item2: hsla(166, 100%, 37%, 0.1);
+  --clr-bg-item3: hsla(234, 85%, 45%, 0.1);
+  --clr-font-item0: var(--clr-lightRed);
+  --clr-font-item1: var(--clr-orangeyYellow);
+  --clr-font-item2: var(--clr-greenTeal);
+  --clr-font-item3: var(--clr-cobaltBlue);
+
+  --clr-bg-button: var(--clr-darkGreyBlue);
+  --clr-bg-button-hover: var(--clr-violetBlue);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

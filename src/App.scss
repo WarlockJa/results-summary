@@ -1,0 +1,24 @@
+@use '../media.scss';
+
+#root {
+    background-color: var(--clr-bg-primary);
+    height: 100vh;
+
+    @include media.min-width(medium) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        main {
+            background-color: var(--clr-bg-summaryTable);
+            border-radius: 32px;
+            overflow: hidden;
+
+            max-width: 730px;
+        }
+    }
+}
+
+h1, h2, p {
+    margin: 0;
+}
